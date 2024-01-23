@@ -1,0 +1,304 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Behnaz Kavoosi Ghafi | PhD student in Computer Graphics</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126939217-2');
+  </script>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="FROST-BRDF" />
+  <meta property="og:description" content="PhD student" />
+  <meta property="og:url" content="https://behnazkavoosi.github.io/assets/projects/frostbrdf.html" />
+  <meta property="og:site_name" content="FROST-BRDF" />
+  <meta property="article:publisher" content="https://behnazkavoosi.github.io/" />
+  <meta property="og:image" content="https://behnazkavoosi.github.io/examples/preview.JPG" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@behnaz_kavoosi" />
+  <meta name="twitter:title" content="Reseacher | Programmer | Team worker | Curious" />
+  <meta name="twitter:description" content="PhD student in Computer Graphics" />
+  <meta name="twitter:url" content="https://twitter.com/behnaz_kavoosi" />
+  <meta name="author" content="Behnaz Kavoosi Ghafi" />
+  <meta name="description" content="PhD student in Computer Graphics." />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+  <!-- Google Site Verification for indexing -->
+  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="https://behnazkavoosi.github.io/#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/behnaz.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="https://behnazkavoosi.github.io/#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+            <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="https://behnazkavoosi.github.io/#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="https://behnazkavoosi.github.io/#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="https://behnazkavoosi.github.io/#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="https://behnazkavoosi.github.io/#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <!--a aria-label="Open Varad's resume in a new tab" href="https://varadbhogayata.github.io/assets/resume/Varad_Bhogayata_Resume.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a-->  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="https://behnazkavoosi.github.io/" class="teal-text">Behnaz Kavoosi Ghafi</a><span class="black-text">PhD student at Linköping University</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="https://behnazkavoosi.github.io/#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="https://behnazkavoosi.github.io/#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="https://behnazkavoosi.github.io/#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="https://behnazkavoosi.github.io/#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="https://behnazkavoosi.github.io/#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro_proj" class="section scrollspy"> 
+      <h3 class="page-title white-text teal" style="display: flex; justify-content: center; align-items: center;">
+        <span style="float: left;">FROST-BRDF</span>
+      </h3>
+      <div class="container style="margin-top: -30px;"">
+        <div class="row">
+          <div class="col s12 m12">
+            <div class="card">
+              <div class="card-content">
+                <ul>
+                  <p>
+                    <b>FROST-BRDF: A Fast and Robust Optimal Sampling Technique for BRDF Acquisition</b>
+                  </p>
+                  <p>
+                    <span style="font-size: smaller;">
+                      Ehsan Miandji, Tanaboon Tongbuasirilai, Saghi Hajisharif, <b>Behnaz Kavoosighafi</b>, Jonas Unger
+                    </span>
+                  </p>
+                  <p>
+                    <span style="font-size: smaller;">
+                      Published in IEEE Transactions on Visualization and Computer Graphics (IEEE TVCG)
+                    </span>   
+                  </p>
+                </ul>
+                
+                <div class="card-image" style="margin-top: 20px;">
+                  <img alt="frostbrdf" src="/assets/img/frost.png" style="height: 50%; width: 100%" />
+                </div>
+
+                <ul>
+                  <span style="margin-top: 20px;">
+                    <p>
+                      <b>Abstract</b>
+                    </p>
+                  </span>
+                  <span style="text-align: justify;">
+                    <p>
+                      Efficient and accurate BRDF acquisition of real world materials is a challenging research problem that requires sampling millions of incident light and viewing directions. To accelerate the acquisition process, one needs to find a minimal set of sampling directions such that the recovery of the full BRDF is accurate and robust given such samples. In this paper, we formulate BRDF acquisition as a compressed sensing problem, where the sensing operator is one that performs sub-sampling of the BRDF signal according to a set of optimal sample directions. To solve this problem, we propose the Fast and Robust Optimal Sampling Technique (FROST) for designing a provably optimal sub-sampling operator that places light-view samples such that the recovery error is minimized. FROST casts the problem of designing an optimal sub-sampling operator for compressed sensing into a sparse representation formulation under the Multiple Measurement Vector (MMV) signal model. The proposed reformulation is exact, i.e. without any approximations, hence it converts an intractable combinatorial problem into one that can be solved with standard optimization techniques. As a result, FROST is accompanied by strong theoretical guarantees from the field of compressed sensing. We perform a thorough analysis of FROST-BRDF using a 10-fold cross-validation with publicly available BRDF datasets and show significant advantages compared to the state-of-the-art with respect to reconstruction quality. Finally, FROST is simple, both conceptually and in terms of implementation, it produces consistent results at each run, and it is at least two orders of magnitude faster than the prior art.
+                    </p>  
+                  </span>            
+                </ul>
+
+                <div style="text-align: center; margin-top: 20px;">
+                  <a aria-label="Visit the GitHub repo for the project" href="https://github.com/emiandji/frost_brdf" target="_blank" data-position="top"
+                    data-tooltip="Code"
+                    class="btn-fl btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                
+                  <a aria-label="Visit the paper" href="https://arxiv.org/abs/2401.07283" target="_blank" data-position="top"
+                    data-tooltip="Paper"
+                    class="btn-fl btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-file"></i></a>
+                
+                </div>
+
+                <ul>
+                  <span style="margin-top: 20px;">
+                    <p>
+                      <b>Citation</b>
+                    </p>
+                  </span>          
+                </ul>
+                
+                
+                  <pre>
+@ARTICLE {10402070,
+author = {E. Miandji and T. Tongbuasirilai and S. Hajisharif and B. Kavoosighafi and J. Unger},
+journal = {IEEE Transactions on Visualization &amp; Computer Graphics},
+title = {FROST-BRDF: A Fast and Robust Optimal Sampling Technique for BRDF Acquisition},
+year = {5555},
+volume = {},
+number = {01},
+issn = {1941-0506},
+pages = {1-13},
+keywords = {training;dictionaries;image reconstruction;compressed sensing;sensors;optimization;rendering (computer graphics)},
+doi = {10.1109/TVCG.2024.3355200},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {jan}
+}
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            
+    </section>
+
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Passionate Computer Graphics Researcher", "Electronics Engineer with a Knack for Visual Technologies", "Problem solver"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
+</html>
